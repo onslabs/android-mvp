@@ -1,16 +1,17 @@
 package olabs.kit.mvp;
 
+import android.app.Activity;
 import android.content.Context;
-import android.databinding.ViewDataBinding;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.databinding.ViewDataBinding;
 
 
-public abstract class BaseActivity<T extends BasePresenter, S extends ViewDataBinding> extends AppCompatActivity {
+public abstract class BaseActivity<T extends BasePresenter, S extends ViewDataBinding> extends Activity {
 
     @Nullable
     protected T mPresenter;

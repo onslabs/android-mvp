@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.HashMap;
 
-import onslabs.kit.networx.NetworkServiceFactory;
-import onslabs.kit.networx.RetroError;
+import olabs.kit.mvp.networx.NetworkServiceFactory;
+import olabs.kit.mvp.networx.RetroError;
 import retrofit2.Callback;
 import retrofit2.Response;
 

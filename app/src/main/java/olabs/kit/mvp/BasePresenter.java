@@ -1,7 +1,7 @@
 package olabs.kit.mvp;
 
 
-import onslabs.kit.networx.RetroError;
+import olabs.kit.mvp.networx.RetroError;
 
 /**
  * Created by ttnd on 27/2/17.

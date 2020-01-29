@@ -4,7 +4,7 @@ import olabs.kit.mvp.CallbackManager;
 import olabs.kit.mvp.login.API.ILoginAPI;
 import olabs.kit.mvp.login.LoginPresenter;
 import olabs.kit.mvp.login.model.LoginResponse;
-import onslabs.kit.networx.RetroError;
+import olabs.kit.mvp.networx.RetroError;
 import retrofit2.Call;
 
 /**

@@ -1,8 +1,11 @@
 package olabs.kit.mvp.login;
 
-import android.databinding.DataBindingUtil;
+
 import android.os.Bundle;
 import android.widget.Toast;
+
+import androidx.databinding.DataBindingUtil;
+
 import olabs.kit.mvp.BaseActivity;
 import olabs.kit.mvp.R;
 import olabs.kit.mvp.databinding.ActivityLoginBinding;
